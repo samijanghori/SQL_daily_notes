@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <div class="sqljoin">
+        <h1>SQL join</h1>
+        <p>is used to combine rows form two or more tables 
+            based on a related column between them
+        </p>
+        <h2>4 Types of join</h2>
+        <ul>
+            <li>(inner) join</li>
+            <li>(outer) left join</li>
+            <li>(outer) right join</li>
+            <li>(outer) full join</li>
+        </ul>
+        <h2>inner join</h2>
+        <p>select records that have match in both tables</p>
+        <p>is used by the following code :
+            <p style="color: rgb(21, 54, 224);">SELECT ProductID, ProductName, CategoryName
+FROM Products
+INNER JOIN Categories ON Products.CategoryID = Categories.CategoryID;
+                </p>
+        </p>
+                
+    </div>
+</body>
+</html>
